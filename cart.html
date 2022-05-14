@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website by Sukhjeet Kaur and Sukhmeet kaur</title>
+
+   <!-- owl carousel css file cdn link that apply styles to website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+   <!-- font awesome cdn link that helps to display icons in website  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- css file link that connects to styles that we applied on website  -->
+    <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/cart.js"></script>
+    </head>
+    <body>
+       
+<!-- header section starts  -->
+
+<header>
+
+    <div class="header-1">
+        
+        <a href="#" class="logo"> <i class="fas fa-laptop-house"></i> E-Tech </a>
+    
+        <div class="form-container">
+            <form action="">
+                <input type="search" placeholder="search products" id="search" /> 
+                <label for="search" class="fas fa-search"></label>
+            </form>
+        </div>
+    
+    </div>
+    
+    <div class="header-2">
+       
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="arrival.html">Arrival</a></li>
+                 <li><a class="active" href="gallery.html">Product Gallery</a></li>
+                 <li><a class="active" href="DetailPage.html">Product Detail</a></li>
+                <li><a class="active" href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="register.html" class="fas fa-user"></a>
+        </div>
+    
+    </div>
+    
+    </header>
+    
+    <!-- header section ends -->
+
+    <!--shopping cart's webpage content -->
+        <section class="container content-section">
+            
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">HP Envy 32</span>
+                    <img class="shop-item-image" src="images/arr-img1.jpg" width="300px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2100</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Samsung Galaxy Tab S6 Lite</span>
+                    <img class="shop-item-image" src="images/arr-img2.jpg" width="300px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1500</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">latest laptop</span>
+                    <img class="shop-item-image" src="images/arr-img3.jpg" width="300px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1899</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">smart tablet</span>
+                    <img class="shop-item-image" src="images/arr-img4.jpg" width="250px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1699 </span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        
+       
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">XPS laptop</span>
+                    <img class="shop-item-image" src="images/g_img4.jpg" width="250px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> $1999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Lenovo Desktop</span>
+                    <img class="shop-item-image" src="images/arr-img6.jpg" width="250px" height="250px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> $1999 </span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+          
+            <!--items that are added in cart will show in this part-->
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+       
+<!---shopping cart content ends here-->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"> <i class="fas fa-laptop-house"></i> E-Tech </a>
+            <p>Welcome to E-Tech! <br>It is an Electronics Store where you can buy electronic gadgets online very easily.
+                It is one of the most famous companies world wide. <br><br><i class =" fas fa-shopping-bag"></i> Shop with us on E-Tech..</p>
+        </div>
+
+        
+
+        <div class="box">
+            <h3>contact us</h3>
+            <p> <i class="fas fa-home"></i>
+                Harbourtown Crescent, L6V4P4 <br>
+                Brampton, Ontario, Canada
+              
+            </p>
+            <p> <i class="fas fa-phone"></i>
+             Canada - +1 099876656477
+            </p>
+            <p> <i class="fas fa-globe"></i>
+                sukh003@gmail.com
+            </p>
+        </div>
+
+    </div>
+
+<h1 class="credit"> &copy; Copyright All Rights Reserved by <span>Sukhjeet kaur c0810669 c0810669 @lambtoncollege.ca</span>  </h1>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- jquery cdn link that get jquery link from this site -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- owl carousel js file cdn link that get js code from this site-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+    </body>
+</html>
